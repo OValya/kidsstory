@@ -9,7 +9,293 @@
     <title>Sass study</title>
 </head>
 <body>
-<h1> work!! </h1>
+<header class="header">
+    <div class="wrapper narrow-wrapper">
+        <a class="logo" href=#>
+            <span class="logo__img"></span>
+        </a>
+        <nav class="header__nav">
+            <ul class="navigation">
+                <li>О нас</li>
+                <li>Расписание</li>
+                <li>Программа</li>
+                <li>Фото и видео</li>
+                <li>Команда</li>
+                <li>Контакты</li>
+            </ul>
+        </nav>
+        <div class="header__contact">
+            <div class="header__phone">
+                <span class="ico ico-phone"></span>
+                <p>+79551111111</p>
+                <h5>Заказать обратный звонок</h5>
+            </div>
+            <div class="buttons header__buttons">
+                <span class="ico ico-vk"></span>
+                <span class="ico ico-tg"></span>
+            </div>
+            <button class="button button-colored"> Записаться на экскурсию</button>
+        </div>
 
+
+    </div>
+</header>
+<main>
+    <section class="promo">
+        <div class="wrapper wide-wrapper">
+            <div class="layout-2-column">
+                <div class="promo__content">
+                    <h1>Kidsstory</h1>
+                    <p>Английский детский сад и клуб </p>
+                </div>
+                <form class="promo__form">
+                   <h3>Запишитесь на персональную экскурсию</h3>
+                   <p>Заполните форму и посмотрите детский сад вживую в удобное для вас время </p>
+                    <input name="name" type="text" placeholder="ваше имя">
+                    <input type="tel" name="tel"  placeholder="+7">
+                    <input type="email" name="email"  placeholder="ваш e-mail">
+                    <label>
+                        <input type="checkbox">
+                        Я принимаю условия
+                        пользовательского соглашения
+                    </label>
+                    <button class="button button_form"> записаться </button>
+                </form>
+
+            </div>
+        </div>
+    </section>
+    <section class="info">
+        <div class="wrapper narrow-wrapper">
+            <div class="layout-3-column">
+                <div class="info__item">
+                    <span class="big-icon"></span>
+                    <p>Часы работы: с 7:00 до 19:00</p>
+                </div>
+                <div class="info__item">
+                    <span class="big-icon"></span>
+                    <p>Видеонаблюдение: онлайн0</p>
+                </div>
+                <div class="info__item">
+                    <span class="big-icon"></span>
+                    <p>Утренний фильтр медработником: ежедневно</p>
+                </div>
+                <div class="info__item">
+                    <span class="big-icon"></span>
+                    <p>Группы: до 15 человек</p>
+                </div>
+                <div class="info__item">
+                    <span class="big-icon"></span>
+                    <p>Англоязычная среда: билингвал / экспат</p>
+                </div>
+                <div class="info__item">
+                    <span class="big-icon"></span>
+                    <p>Помещение: 800 кв.м</p>
+                </div>
+                <div class="info__item">
+                    <span class="big-icon"></span>
+                    <p>Площадь для прогулок: собственная оборудованная территория для прогулок</p>
+                </div>
+                <div class="info__item">
+                    <span class="big-icon big-icon_colored "></span>
+                    <p>Возраст детей: с 1,5 до 7 лет</p>
+                </div>
+                <div class="info__item">
+                    <span class="big-icon"></span>
+                    <p>Питание: 5-разовое, с учетом индивидуальных особенностей ребенка</p>
+                </div>
+
+            </div>
+        </div>
+    </section>
+    <section class="consultation ">
+        <div class="wrapper wide-wrapper">
+            <h2>Есть вопросы? Получите бесплатную консультацию</h2>
+            <p>Оставьте телефон и мы перезвоним и расскажем все подробности о филиале </p>
+            <form class="consultation__form">
+                <input type="tel" name="tel"  placeholder="+7">
+                <button class="button"> Отправить</button>
+                <label>
+                    <input type="checkbox">
+                    Я принимаю условия пользовательского соглашения
+                </label>
+            </form>
+        </div>
+    </section>
+    <section class="extra-services">
+        <div class="wrapper narrow-wrapper">
+            <h2>Дополнительные услуги</h2>
+            <div class="masonry-layout">
+                <div class="masonry-layout__item">
+                    <span class="big-icon big-icon_outline"></span>
+                    <p>Йога</p>
+                </div>
+                 <div class="masonry-layout__item">
+                    <span class="big-icon big-icon_outline"></span>
+                    <p>Монтессори группа с уникальным
+                        древесинным оборудованием</p>
+                </div>
+                 <div class="masonry-layout__item">
+                    <span class="big-icon big-icon_outline"></span>
+                    <p>Гольф для
+                        малышей</p>
+                </div>
+                 <div class="masonry-layout__item">
+                    <span class="big-icon big-icon_outline"></span>
+                    <p>Занятия с беговелами</p>
+                </div>
+                 <div class="masonry-layout__item">
+                    <span class="big-icon big-icon_outline"></span>
+                    <p>Легостроение и конструирование</p>
+                </div>
+                 <div class="masonry-layout__item">
+                    <span class="big-icon big-icon_outline"></span>
+                    <p>Тестопластика и глинопластика</p>
+                </div>
+                 <div class="masonry-layout__item">
+                    <span class="big-icon big-icon_outline"></span>
+                    <p>Риторика и ораторское мастерство</p>
+                </div>
+                 <div class="masonry-layout__item">
+                    <span class="big-icon big-icon_outline"></span>
+                    <p>Занятия по скалолазанию</p>
+                </div>
+                 <div class="masonry-layout__item">
+                    <span class="big-icon big-icon_outline"></span>
+                    <p>Театрализация на английском языке</p>
+                </div>
+                 <div class="masonry-layout__item">
+                    <span class="big-icon big-icon_outline"></span>
+                    <p>Кулинария и этикет сервисного стола</p>
+                </div>
+                 <div class="masonry-layout__item">
+                    <span class="big-icon big-icon_outline"></span>
+                    <p>Песочная терапия. Работа на интерактивных столах и досках</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="video-section">
+        <div class="wrapper narrow-wrapper">
+            <h2>Видеогалерея нашего сада</h2>
+            <h4>Вы можете ознакомиться как проходят наши будни</h4>
+<!--            todo: video player-->
+        </div>
+    </section>
+    <section class="profit">
+        <div class="wrapper narrow-wrapper">
+            <h2>Преимущества</h2>
+            <h4>Наша авторская программа ведётся на русском и английском языках и состоит из увлекательных мероприятий</h4>
+            <div class="layout-3-column">
+                <div class="profit__item">
+                    <span class="big-icon"></span>
+                    <p>Мастер-классы</p>
+                </div>
+                <div class="profit__item">
+                    <span class="big-icon"></span>
+                    <p>Опыты и эксперименты</p>
+                </div>
+                <div class="profit__item">
+                    <span class="big-icon"></span>
+                    <p>Игры-квесты</p>
+                </div>
+                <div class="profit__item">
+                    <span class="big-icon"></span>
+                    <p>Концерты и спектакли</p>
+                </div>
+                <div class="profit__item">
+                    <span class="big-icon"></span>
+                    <p>Конференции и проекты</p>
+                </div>
+                <div class="profit__item">
+                    <span class="big-icon"></span>
+                    <p>Соревнования</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="our-team">
+        <div class="wrapper narrow-wrapper">
+            <h2>Наша команда</h2>
+<!--            todo: slider-->
+        </div>
+    </section>
+    <section class="consultation">
+        <div class="wrapper wide-wrapper">
+            <h2>Остались вопросы? Получите бесплатную консультацию</h2>
+            <p>Оставьте телефон и мы перезвоним и расскажем все подробности о филиале </p>
+            <form class="consultation__form">
+                <input type="tel" name="tel"  placeholder="+7">
+                <button class="button"> Отправить</button>
+                <label>
+                    <input type="checkbox">
+                    Я принимаю условия пользовательского соглашения
+                </label>
+            </form>
+        </div>
+    </section>
+    <section class="about">
+        <div class="wrapper narrow-wrapper">
+            <h2>О нашем центре</h2>
+            <p>Мы создали пространство, в котором каждый ребёнок проявляет и раскрывает себя, развивает индивидуальные особенности и таланты.
+            </p>
+            <p>Наша задача — сделать так, чтобы каждый день в Kids story был счастливым.
+            </p>
+            <p>
+                Английский детский клуб. Для детей с 2 до 7 лет. Погружение в языковую среду, собственная кухня, охраняемая огороженная территория, медицинский кабинет, соляная пещера.
+                Дополнительные услуги. Для детей с 2 до 18 лет. Развивающие студии, творческие мастерские, спортивные секции.
+                Kids story - «ежедневное развитие детей на 360 градусов».
+            </p>
+        </div>
+    </section>
+    <section class="reviews">
+        <div class="wrapper wide-wrapper">
+            <h2>Отзывы о саде</h2>
+<!--            todo: slider-->
+        </div>
+    </section>
+    <section class="map">
+        <div class="wrapper wide-wrapper">
+            <!--            todo: location yandex-->
+        </div>
+    </section>
+</main>
+<footer class="footer">
+    <div class="wrapper narrow-wrapper">
+        <a class="logo" href=#>
+            <span class="logo__img"></span>
+        </a>
+        <div class="layout-2-column">
+            <div class="footer__info">
+                <div class="footer__phone">
+                    <span class="ico ico-phone"></span>
+                    <p>+79551111111</p>
+                    <h5>dir@kidsstory.life</h5>
+                </div>
+                <p>
+                    Москва, ул. Муравская д.38, к.1
+                    ЖК Мир Митино <a href="#" >М. Пятницкое шоссе </a>
+                </p>
+                <div class="buttons footer__buttons">
+                    <span class="ico ico-vk"></span>
+                    <span class="ico ico-tg"></span>
+                </div>
+            </div>
+            <div class="footer__navigation">
+                <ul class="navigation">
+                    <li>О нас</li>
+                    <li>Расписание</li>
+                    <li>Программа</li>
+                    <li>Фото и видео</li>
+                    <li>Команда</li>
+                    <li>Контакты</li>
+                </ul>
+            </div>
+
+        </div>
+    </div>
+
+
+</footer>
 </body>
 </html>
