@@ -1,0 +1,17 @@
+.promo{
+  border-radius: 20px;
+}
+
+.promo__content{
+  background: $color-yellow;
+  background-image: url("../../img/promo/promo__content.png");
+  flex: 1;
+}
+.promo__form{
+  border-radius: 20px;
+  background: $color-brand;
+  display: flex;
+  flex-direction: column;
+  padding: 50px 38px 60px;
+  flex: 0 0 384px;
+}
